@@ -11,7 +11,7 @@ public class SpaceBunnies extends AbstractGame {
     private long lastUpdateMills = 0;
     private Boolean wasHit = false;
     private int tick = -1;
-    private final Font word = new Font("res/8-BIT-WONDER.TTF", 50);
+    private final Font word = new Font("res/8-BIT-WONDER.TTF", 40);
     private final Font title = new Font("res/8-BIT-WONDER.TTF", 75);
     private final List<Actor> actorList = new ArrayList<>();
 
@@ -89,7 +89,7 @@ public class SpaceBunnies extends AbstractGame {
 
         /* shift background and asteroid every 500 ms */
         long thisUpdateMills = currentTimeMillis();
-        int tickRate = 500;
+        int tickRate = 550;
         if (thisUpdateMills - lastUpdateMills > tickRate) {
 
             /* move actors if haven't reach the end */
@@ -152,14 +152,14 @@ public class SpaceBunnies extends AbstractGame {
 
         /* add text according to specifications */
         if (tick<3) {
-            title.drawString("Space Bunnies", 100, 348);
+            title.drawString("Space Bunnies", 70, 380);
         } else if (tick < 6) {
-            title.drawString("Space Bunnies", 100, 348);
-            word.drawString("Avoid the asteroids", 100, 476);
+            title.drawString("Space Bunnies", 70, 380);
+            word.drawString("Avoid the asteroids", 200, 476);
         } else if (actorList.get(0).getX() <= -960){
-            word.drawString("Mission accomplished", 100, 348);
+            word.drawString("Mission accomplished", 250, 400);
         } else if (ship.getCondition() == 0) {
-            word.drawString("NoBunny Left", 200, 348);
+            word.drawString("Mission failed", 250, 400);
         }
     }
 }

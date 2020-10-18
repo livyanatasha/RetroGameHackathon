@@ -2,7 +2,7 @@
 # Space Bunnies 🐰🌌
 
 ### 📖 Background story :
-> Bibbly and his bunny friends wish to travel to Planet Carrotton 🥕 in hopes of finding a better life, one where the carrots are bountiful. 
+> Bibbly and his bunny friends wish to travel to Planet Carrotton in hopes of finding a better life, one where the carrots are bountiful. 
 > Bibbly has to brave the asteroids of the furry-way galaxy to get to his destination. He needs your help to steer the spaceship and get to Planet Carroton safely.
 > Everytime Bibbly runs into an asteroid, one of his bunny budddies gets injured and will float into endless space, eventually becoming a dust bunny, wishing they never trusted Bibbly in the first place 😢
 

@@ -157,7 +157,7 @@ public class SpaceBunnies extends AbstractGame {
             title.drawString("Space Bunnies", 70, 380);
             word.drawString("Avoid the asteroids", 200, 476);
         } else if (actorList.get(0).getX() <= -960){
-            word.drawString("Mission accomplished", 250, 400);
+            word.drawString("Mission accomplished", 150, 400);
         } else if (ship.getCondition() == 0) {
             word.drawString("Mission failed", 250, 400);
         }
